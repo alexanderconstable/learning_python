@@ -1,10 +1,10 @@
 import random
 
-def isprime(austen):
+def isprime(number):
 
     isprime_flag = True
-    for c in range(2, austen):
-        d = austen / c
+    for c in range(2, number):
+        d = number / c
         if d.is_integer():
             isprime_flag = False
     return isprime_flag
